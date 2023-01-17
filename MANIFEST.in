@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include mainul_agro *.css
+recursive-include mainul_agro *.csv
+recursive-include mainul_agro *.html
+recursive-include mainul_agro *.ico
+recursive-include mainul_agro *.js
+recursive-include mainul_agro *.json
+recursive-include mainul_agro *.md
+recursive-include mainul_agro *.png
+recursive-include mainul_agro *.py
+recursive-include mainul_agro *.svg
+recursive-include mainul_agro *.txt
+recursive-exclude mainul_agro *.pyc
